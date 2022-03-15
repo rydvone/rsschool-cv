@@ -1,3 +1,6 @@
+![avatar](assets/img/avatar.jpg)  
+
+
 ## Alexander Verbitsky
 ****  
 
