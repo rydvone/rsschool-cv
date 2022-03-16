@@ -217,7 +217,7 @@ code span{
 /* --------------------------hero-------------------------- */
 .hero-section {
   width: max-content;
-  border: 1px solid #cecece;
+  /* border: 1px solid #cecece; */
 
   display: flex;
   flex-direction: row;
@@ -236,16 +236,14 @@ code span{
 .avatar {
   border: 2px solid var(--color-yellow);
   border-radius: 10%;
-  
-  /* box-shadow: 5px 5p rgba(255, 251, 36, 0.7); */
+
 }
 
 .wrapper__title-hero {
-  /* position: absolute; */
-  /* padding: 0 100px; */
+
 }
 .title-hero {
-  /* padding: 20px; */
+
   border: 2px solid var(--color-white);
   border-radius: 10px;
 }
@@ -255,8 +253,6 @@ code span{
   text-align: center;
   padding: 20px 200px;
   margin: auto;
-  /* border: 2px solid var(--color-grey-dark);
-  border-radius: 10px; */
 }
 .hero__text {
   display: inline;
@@ -270,8 +266,7 @@ code span{
   margin-right: 0;
   padding: 0 5px;
 }
-  /* --widthContent: 200px; */
-  /* left: calc((100% - var(--widthContent)) / 2); */
+
 
 /* --------------------------contacts-------------------------- */
 
@@ -327,11 +322,9 @@ code span{
 .footer__rs {
   display: flex;
   align-content: flex-end;
-  /* flex-direction: row; */
-  /* align-items: flex-end; */
-  /* align-items: start; */
+
   justify-content: flex-end;
-  /* text-align: end; */
+
 }
 .icons_footer {
   background-color: var(--color-yellow-white);
@@ -387,10 +380,8 @@ code span{
     width: auto;
   align-self: center;
   text-align: center;
-  /* padding: 20px 100px; */
   margin: auto;
-  /* border: 2px solid var(--color-grey-dark);
-  border-radius: 10px; */
+
   }
 
 
