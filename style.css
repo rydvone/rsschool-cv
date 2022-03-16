@@ -149,7 +149,7 @@ code span{
 
 .header__logo {
   background-color: var(--color-white);
-  background-image: url('assets/img/logo-header-01-rev.svg');
+  background-image: url('assets/pic/logo-header.png');
   width: 30px;
   height: 30px;
 
@@ -259,6 +259,7 @@ code span{
   border-radius: 10px; */
 }
 .hero__text {
+  display: inline;
   width: max-content;
   background-color: var(--color-grey);
   text-align: center;
