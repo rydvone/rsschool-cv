@@ -126,11 +126,17 @@ code span{
   gap: 0 15px;
   padding: 0;
 }
-
 .section__list {
   padding: 0 0 0 10px;
 }
+.section__title {
+  color: var(--color-yellow-white);
+  background-color: var(--color-grey-dark);
+  width: max-content;
 
+  padding: 3px 50px;
+  border-radius: 5px;
+}
 
 /* --------------------------header-------------------------- */
 .main-header {
