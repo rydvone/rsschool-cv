@@ -163,13 +163,10 @@ code span{
   margin-right: auto;
   border: 2px solid var(--color-white);
 }
-.link_nav {
+.menu__link {
 
 }
-.link__item {
-  border: 1px solid var(--color-white);
-}
-.link_nav:hover {
+.menu__link:hover {
   /* font-size: 1.2em; */
   font-weight: 500;
   /* background-color: var(--color-grey); */
@@ -292,10 +289,10 @@ code span{
 /* --------------------projects-and-code---------------------- */
 .item_code {
   color: var(--color-white);
-  background-color: var(--color-grey-dark);
-  min-width: min-content;
+  background-color: var(--color-grey);
+  width: min-content;
   border-radius: 15px;
-  padding: 0 10px;
+  padding: 0 50px;
 }
 
 /* --------------------------skills-------------------------- */
@@ -354,7 +351,7 @@ code span{
 /* -----------------------------media--------------------------1024--- */
 @media (max-width: 1024px) {
   code[class*="language-"], pre[class*="language-"] {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 
 
@@ -364,7 +361,7 @@ code span{
 /* -----------------------------media--------------------------768--- */
 @media (max-width: 768px) {
   code[class*="language-"], pre[class*="language-"] {
-    font-size: 0.8rem;
+    font-size: 0.9m;
   }
 
   .main-body {
@@ -417,7 +414,7 @@ code span{
 /* -----------------------------media--------------------------620--- */
 @media (max-width: 620px) {
   code[class*="language-"], pre[class*="language-"] {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
   }
 
   .main-footer {
