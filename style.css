@@ -16,6 +16,12 @@ html {
   --color-template-main: #cecece;
   --time-slow: 0.7s;
   --time-fast: 0.4s;
+  --color-bg-header: var(var(--color-black-less));
+  --color-bg-footer: var(var(--color-black-less));
+  --color-bg-main-left: var(var(--color-grey-dark));
+  --color-bg-main-right: var(var(--color-grey-dark));
+  
+  
 }
 body {
   /* font-family: 'Roboto Mono', monospace;   */
@@ -115,7 +121,7 @@ code span{
   display: grid;
   grid-template-columns: 1fr 2fr;
 }
-.wrapper-list {
+.menu__nav {
   font-size: 16px;
 }
 .list {
@@ -390,7 +396,7 @@ code span{
   }
 
 
-  .wrapper-list {
+  .menu__nav {
     display: none;
   }
   .wrapper-burger {
@@ -398,7 +404,7 @@ code span{
   }
 
 
-  .wrapper-list.active {
+  .menu__nav.active {
     display: block;
     transition: all var(--time-slow) ease-in-out;
   }
